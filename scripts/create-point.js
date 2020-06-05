@@ -77,8 +77,7 @@ function handleSelectedItem(event){
   } else{    
     selectedItems.push(itemId);
 
-  }
-  console.log(selectedItems)
+  }  
     
   collectedItems.value = selectedItems;
 }
